@@ -1,12 +1,12 @@
 bs4
 chardet
-fairseq
+# fairseq
 fire
 html2text
 html5lib
 google
 html5lib
-parlai
+# parlai
 requests
 rich
 lxml
