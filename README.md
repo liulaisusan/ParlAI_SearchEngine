@@ -43,7 +43,20 @@ python -m parlai interactive --model-file zoo:blenderbot2/blenderbot2_3B/model -
 ```
 
 # Colab
-There is a jupyter notebook. Just run it. Some instances run out of memory, some don't.
+It is easier to use Colab Pro, so you have access to the terminal. Same as local, you can see the queries come in and the search result
+
+To use it in Colab  
+
+First install the requirements:
+```bash
+pip install -r requirements.txt
+```
+
+Run this command in one terminal tab:
+```bash
+python search_server.py serve --host 0.0.0.0:1111
+# Port 8080 won't work got address already used error
+```
 
 # Other Ways to Test the Server:
 
